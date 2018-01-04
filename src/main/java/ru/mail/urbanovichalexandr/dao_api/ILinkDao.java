@@ -1,7 +1,6 @@
 package ru.mail.urbanovichalexandr.dao_api;
 
 import ru.mail.urbanovichalexandr.datamodel.Link;
-
 import java.util.List;
 
 public interface ILinkDao {
