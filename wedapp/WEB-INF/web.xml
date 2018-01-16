@@ -5,14 +5,13 @@
     <display-name>URL Shortener</display-name>
 
     <servlet>
-        <servlet-name>UrlShortener</servlet-name>
-        <servlet-class>ru.mail.urbanovichalexandr.servlets.UrlShortener</servlet-class>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>ru.mail.urbanovichalexandr.servlets.LoginServlet</servlet-class>
     </servlet>
 
-
     <servlet-mapping>
-        <servlet-name>UrlShortener</servlet-name>
-        <url-pattern>/UrlShortener</url-pattern>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
 </web-app>
